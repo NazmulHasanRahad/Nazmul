@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Profile Picture -->
+  <style>
+    .primary { fill: #4a6cf7; }
+    .secondary { fill: #6e8ffb; }
+    .dark { fill: #333333; }
+    .light { fill: #f8f9fa; }
+    .skin { fill: #ffdbb4; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="300" height="300" rx="150" class="primary" opacity="0.1" />
+  
+  <!-- Person -->
+  <circle cx="150" cy="120" r="60" class="skin" />
+  
+  <!-- Hair -->
+  <path d="M90,120 C90,80 210,80 210,120" class="dark" />
+  <path d="M90,120 C90,90 110,70 150,80 C190,70 210,90 210,120" class="dark" />
+  
+  <!-- Eyes -->
+  <circle cx="130" cy="110" r="5" class="dark" />
+  <circle cx="170" cy="110" r="5" class="dark" />
+  
+  <!-- Smile -->
+  <path d="M130,140 C140,155 160,155 170,140" stroke="#333333" stroke-width="3" fill="none" />
+  
+  <!-- Shirt -->
+  <path d="M90,190 C90,160 210,160 210,190" class="primary" />
+  <path d="M90,190 L90,250 L210,250 L210,190" class="primary" />
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="70" r="15" class="secondary" opacity="0.3" />
+  <circle cx="220" cy="80" r="20" class="secondary" opacity="0.3" />
+  <circle cx="60" cy="220" r="25" class="secondary" opacity="0.3" />
+  <circle cx="240" cy="210" r="18" class="secondary" opacity="0.3" />
+</svg>

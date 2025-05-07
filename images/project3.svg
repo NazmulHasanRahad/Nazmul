@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Project 3: Weather Dashboard -->
+  <style>
+    .primary { fill: #4a6cf7; }
+    .secondary { fill: #6e8ffb; }
+    .dark { fill: #333333; }
+    .light { fill: #f8f9fa; }
+    .accent { fill: #ffcc00; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="300" height="200" class="light" />
+  
+  <!-- Sun and cloud -->
+  <circle cx="150" cy="90" r="30" class="accent" />
+  <circle cx="130" cy="80" r="20" class="light" />
+  <circle cx="160" cy="75" r="15" class="light" />
+  <circle cx="180" cy="85" r="18" class="light" />
+  
+  <!-- Rain drops -->
+  <path d="M130,120 L125,140" stroke="#6e8ffb" stroke-width="3" stroke-linecap="round" />
+  <path d="M150,120 L145,140" stroke="#6e8ffb" stroke-width="3" stroke-linecap="round" />
+  <path d="M170,120 L165,140" stroke="#6e8ffb" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Temperature display -->
+  <rect x="110" y="150" width="80" height="20" rx="10" class="primary" opacity="0.2" />
+  <text x="150" y="165" font-family="Arial" font-size="14" text-anchor="middle" class="dark">23°C</text>
+  
+  <!-- Text placeholder -->
+  <rect x="75" y="180" width="150" height="8" rx="4" class="secondary" opacity="0.5" />
+</svg>

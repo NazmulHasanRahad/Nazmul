@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Client 1 Avatar -->
+  <style>
+    .primary { fill: #4a6cf7; }
+    .secondary { fill: #6e8ffb; }
+    .dark { fill: #333333; }
+    .light { fill: #f8f9fa; }
+    .skin { fill: #ffdbb4; }
+  </style>
+  
+  <!-- Background -->
+  <circle cx="50" cy="50" r="50" class="light" />
+  
+  <!-- Person silhouette -->
+  <circle cx="50" cy="40" r="20" class="skin" />
+  <path d="M30,85 C30,65 70,65 70,85" class="dark" />
+  <rect x="40" y="60" width="20" height="25" rx="2" class="dark" />
+  
+  <!-- Suit -->
+  <path d="M35,85 L40,60 L60,60 L65,85" class="primary" opacity="0.8" />
+  
+  <!-- Tie -->
+  <path d="M50,60 L45,70 L50,85 L55,70 L50,60" class="secondary" />
+</svg>

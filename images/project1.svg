@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Project 1: E-Commerce Platform -->
+  <style>
+    .primary { fill: #4a6cf7; }
+    .secondary { fill: #6e8ffb; }
+    .dark { fill: #333333; }
+    .light { fill: #f8f9fa; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="300" height="200" class="light" />
+  
+  <!-- Shopping cart icon -->
+  <circle cx="150" cy="90" r="50" class="primary" opacity="0.2" />
+  <path d="M120,90 L180,90 L170,130 L130,130 Z" class="primary" />
+  <circle cx="140" cy="140" r="8" class="dark" />
+  <circle cx="160" cy="140" r="8" class="dark" />
+  <path d="M110,70 L120,90 M190,70 L180,90" stroke="#333333" stroke-width="3" fill="none" />
+  
+  <!-- Text placeholder -->
+  <rect x="75" y="150" width="150" height="10" rx="5" class="secondary" opacity="0.7" />
+  <rect x="100" y="170" width="100" height="8" rx="4" class="secondary" opacity="0.5" />
+</svg>
